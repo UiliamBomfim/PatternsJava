@@ -2,6 +2,8 @@ package Factory;
 import java.util.HashMap;
 import java.util.Map;
 
+
+
 public class PoligonoFactory {
 	
 	String triangulo;
@@ -21,6 +23,7 @@ public class PoligonoFactory {
 		else
 			if(poligono == "Circulo") {
 				
+				
 				return poligonos.get("Circulo");
 		}else
 			if(poligono == "Quadrado") {
@@ -29,6 +32,8 @@ public class PoligonoFactory {
 		
 		return null;
 	}
+	
+
 
 	
 	
