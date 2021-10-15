@@ -37,9 +37,7 @@ public class JSONWrite {
 
 			//Armazena dados em um Objeto JSON
 			jsonObject.put(poligono.descritor(), listOfIntegers);
-			//jsonObject.put("sobrenome", "Romanato");
-			//jsonObject.put("pais", "Brasil");
-			//jsonObject.put("estado", "SP");
+
 
 			try{
 				writeFile = new FileWriter("saida.json");
